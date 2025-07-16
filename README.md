@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# Edlivky Coding School - Modern Learning Platform
 
-## Project info
+**Edlivky Coding School** is a cutting-edge educational platform designed to provide immersive coding experiences. This responsive website showcases courses, manages student enrollments, and delivers an engaging learning environment using modern web technologies.
 
-**URL**: https://lovable.dev/projects/59829b5c-c7b9-4e71-afdc-7c8532bf1c69
+---
 
-## How can I edit this code?
+## 🎯 Features
 
-There are several ways of editing your application.
+- 🎓 Comprehensive Course Catalog
+- 📝 Student Enrollment System
+- 👤 User Authentication & Dashboard
+- 📚 Interactive Learning Resources
+- 📱 Fully Responsive Design
+- ⚡ High Performance Architecture
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/59829b5c-c7b9-4e71-afdc-7c8532bf1c69) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project leverages modern web technologies:
 
-**Use your preferred IDE**
+- **React** + **TypeScript** (frontend framework)
+- **Vite** (lightning-fast build tool)
+- **Tailwind CSS** (utility-first CSS framework)
+- **shadcn/ui** (elegant UI components)
+- **Node.js** (JavaScript runtime)
+- **Express** (backend framework)
+- **MongoDB** (NoSQL database)
+- **React Router DOM** (navigation)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Project Structure
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+edlivkycoding/
+├── public/ # Static assets
+├── src/ # Application source
+│ ├── assets/ # Images, icons, etc.
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components
+│ ├── layouts/ # Application layouts
+│ ├── context/ # State management
+│ ├── hooks/ # Custom React hooks
+│ ├── services/ # API services
+│ ├── styles/ # Global styles
+│ └── utils/ # Helper functions
+├── server/ # Backend (Express.js)
+├── .env.example # Environment variables template
+├── tailwind.config.js # Tailwind configuration
+├── vite.config.ts # Vite configuration
+├── package.json # Project dependencies
+└── README.md # Project documentation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Getting Started
 
-## What technologies are used for this project?
+Follow these steps to set up the project locally:
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/59829b5c-c7b9-4e71-afdc-7c8532bf1c69) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 1. Clone the repository
+```bash
+git clone https://github.com/benjamindlabs/edlivkyschool.git
+cd edlivkycoding
